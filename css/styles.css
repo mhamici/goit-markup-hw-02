@@ -37,28 +37,8 @@ line-height: 1.5;
 letter-spacing: 0.02em;
 color: #2e2f42;
 }
-.menu-link-portfolio{
-font-weight: 500;
-line-height: 1.5;
-letter-spacing: 0.02em;
-color: #2e2f42;
-}
-.menu-link-contacts{
-font-weight: 500;
-line-height: 1.5;
-letter-spacing: 0.02em;
-color: #2e2f42;
-}
 .menu-link:hover,
 .menu-link:focus{
-color: #404bbf;
-}
-.menu-link-portfolio:hover,
-.menu-link-portfolio:focus{
-color: #404bbf;
-}
-.menu-link-contacts:hover,
-.menu-link-contacts:focus{
 color: #404bbf;
 }
 .contact-block-item{
