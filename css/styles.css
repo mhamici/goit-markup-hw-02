@@ -101,7 +101,9 @@ color: #ffffff
 .team-section {
   background: #f4f4fd;
 }
-
+.team-section-item {
+  background-color: #ffffff
+}
 .team-section-titile {
   font-weight: 700;
   font-size: 36px;
