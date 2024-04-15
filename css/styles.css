@@ -1,4 +1,4 @@
-/* ============ removed markers ============ */
+/* --------- Removed Markers -------- */
 ul,
 ol {
     list-style-type: none;
@@ -9,162 +9,157 @@ a {
 button{
     cursor: pointer;
 }
-/* ============ header styles ============ */
-.accent-color {
-  color: #fd9222;
+body {
+  font-family: "Roboto", "Raleway", sans-serif;
+  color: #434455;
+  background-color: #fcfcfc;
+  font-size: 16px;
+}
+/* ------- Header Styles --------- */
+.page-logo { 
+font-family: "Raleway", sans-serif;
+font-weight: 700;
+font-size: 18px;
+line-height: 1.17;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: #2e2f42;
+}
+.logo-color {
+color:#4d5ae5
+}
+.menu-item{
+font-weight: 500;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #2e2f42;
+}
+.menu-link:hover,
+.menu-link:active{
+color: #404bbf;
+}
+.contact-block-item{
+font-weight: 400;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #434455;
 }
 
-.section-title {
-  font-size: 24px;
-  font-weight: 600;
-  line-height: 1.17;
-  letter-spacing: -0.03em;
-  text-align: center;
-  text-transform: uppercase;
+/* --- Hero CTA Section styles --- */
+.hero-section{
+  background: #2e2f42;
 }
-
-/* ============ HEADER STYLES ============ */
-.page-logo {
-  font-weight: 700;
-@@ -44,3 +57,141 @@ body {
-}
-
-/* ============ HERO STYLES ============ */
 .main-title {
-  font-size: 28px;
+font-weight: 700;
+font-size: 56px;
+line-height: 1.07143;
+letter-spacing: 0.02em;
+text-align: center;
+color: #ffffff;
+}
+.order-btn {
+font-family: inherit;
+font-size: inherit;
+box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+background: #4d5ae5;
+}
+
+.order-btn:hover {
+  background: #404bbf;
+}
+/* -------- Our services Styles -------- */
+.service-block-title {
   font-weight: 500;
-  line-height: 1.21;
-  letter-spacing: -0.03em;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
 }
 
-.buy-now-btn {
-  font-size: 14px;
-  font-weight: 600;
-  background-color: #fd9222;
-  color: #ffffff;
+.service-block-paragraph {
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
 }
 
-.buy-now-btn:hover,
-.buy-now-btn:focus {
-  background-color: #fcf1e0;
-  color: #fd9222;
+/* -------------Our team section----------- */
+.team-section {
+  background: #f4f4fd;
 }
 
-.how-made-link {
-  font-size: 14px;
-  font-weight: 600;
-}
-
-.how-made-link:hover,
-.how-made-link:focus {
-  color: #fd9222;
-}
-
-.scroll-down-link {
-  font-size: 14px;
-  font-weight: 500;
-  line-height: 1.29;
-  letter-spacing: -0.03em;
-}
-
-.scroll-down-link:hover,
-.scroll-down-link:focus {
-  color: #fd9222;
-}
-
-/* ============ BENEFITS STYLES ============ */
-.benefits-list-title {
-  font-size: 18px;
-  font-weight: 600;
-}
-
-.benefits-list-text {
-  font-size: 14px;
-  line-height: 1.29;
-  letter-spacing: -0.02em;
-}
-
-/* ============ INGREDIENTS STYLES ============ */
-.ingredients-description {
-  font-size: 14px;
-  line-height: 1.29;
-  letter-spacing: -0.02em;
+.team-section-titile {
+    font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11111;
+  letter-spacing: 0.02em;
   text-align: center;
+  color: #2e2f42;
+}
+.team-item-title{
+font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
+letter-spacing: 0.02em;
+text-align: center;
+color: #2e2f42;
 }
 
-.ingredients-list-title {
-  font-size: 14px;
-  font-weight: 600;
-  line-height: 1.29;
-  letter-spacing: -0.02em;
-  text-transform: uppercase;
+.team-item-paragraph{
+font-weight: 400;
+line-height: 1.5;
+letter-spacing: 0.02em;
+text-align: center;
+color: #434455;
 }
 
-/* ============ HOW MADE STYLES ============ */
-.how-made-title {
-  font-size: 18px;
-  font-weight: 600;
-  line-height: 1.33;
+/* -------------- Our Portfolio ---------- */
+.portfolio-title {
+font-weight: 700;
+font-size: 36px;
+line-height: 1.11111;
+letter-spacing: 0.02em;
+text-align: center;
+color: #2e2f42;
 }
 
-.how-made-list-item {
-  font-size: 14px;
-  line-height: 1.29;
-  letter-spacing: -0.02em;
-}
-
-/* ============ REVIEWS STYLES ============ */
-.reviews-list-fullname {
-  font-size: 18px;
-  font-weight: 600;
-  line-height: 1.33;
-  text-align: center;
-}
-
-.reviews-list-text {
-  font-size: 14px;
-  line-height: 1.29;
-  letter-spacing: -0.02em;
-  text-align: center;
-  color: rgba(17, 17, 17, 0.7);
-}
-
-.leave-review-btn {
-  font-size: 18px;
-  font-weight: 600;
-}
-
-.leave-review-btn:hover,
-.leave-review-btn:focus {
-  color: #ffffff;
-  background-color: #fd9222;
-}
-
-/* ============ FOOTER STYLES ============ */
-.page-footer-title {
-  font-size: 28px;
+.portfolio-list-title {
   font-weight: 500;
-  line-height: 1.21;
-  letter-spacing: -0.02em;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
 }
 
-.contact-block {
-  font-style: normal;
+.portfolio-list-paragraph {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
 }
 
-.contact-text {
-  font-size: 14px;
-  font-weight: 500;
-  line-height: 1.29;
+/*---------Footer-------*/
+.page-footer {
+  background: #2e2f42;
 }
 
-.contact-list-link {
-  font-size: 14px;
-  line-height: 1.29;
-  letter-spacing: -0.02em;
+.page-footer-logo{
+font-family: "Raleway", sans-serif;
+font-weight: 700;
+font-size: 18px;
+line-height: 1.16667;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: #f4f4fd;
+}
+.footer-logo-color{
+color: #4d5ae5;
 }
 
-.contact-list-link:hover,
-.contact-list-link:focus {
-  color: #fd9222;
+.page-footer-paragraph{
+font-weight: 400;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #f4f4fd;
 }
